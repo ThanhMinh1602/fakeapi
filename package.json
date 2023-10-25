@@ -19,8 +19,8 @@
     "path": "^0.12.7",
     "uuid": "^9.0.1",
     "express": "^4.17.1",
-    "netlify-lambda": "^2.0.15",
-    "serverless-http": "^2.7.0"
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
