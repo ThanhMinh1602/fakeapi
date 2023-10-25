@@ -2,25 +2,22 @@
   "name": "fakeapi",
   "version": "1.0.0",
   "description": "demo json",
-  "main": "functions/main.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js",
-    "build": "npm run build:functions",
-    "build:functions": "netlify-lambda build functions",
-    "dev": "nodemon main.js"
+    "dev": "nodemon main.js",
+    "start": "node main.js"
   },
-  "keywords": ["json-server"],
+  "keywords": [
+    "json-server"
+  ],
   "author": "ThanhMinh",
   "license": "MIT",
   "dependencies": {
     "json-server": "^0.17.4",
     "multer": "^1.4.5-lts.1",
     "path": "^0.12.7",
-    "uuid": "^9.0.1",
-    "express": "^4.17.1",
-    "netlify-lambda": "^2.0.16",
-    "serverless-http": "^3.2.0"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
