@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sản phẩm 1",
+      "price": 19.99,
+      "description": "Mô tả sản phẩm 1",
+      "image": "image_produsts/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sản phẩm 2",
+      "price": 24.99,
+      "description": "Mô tả sản phẩm 2",
+      "image": "url_hình_ảnh_2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sản phẩm 3",
+      "price": 14.99,
+      "description": "Mô tả sản phẩm 3",
+      "image": "url_hình_ảnh_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sản phẩm 4",
+      "price": 29.99,
+      "description": "Mô tả sản phẩm 4",
+      "image": "url_hình_ảnh_4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sản phẩm 5",
+      "price": 34.99,
+      "description": "Mô tả sản phẩm 5",
+      "image": "url_hình_ảnh_5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sản phẩm 6",
+      "price": 9.99,
+      "description": "Mô tả sản phẩm 6",
+      "image": "url_hình_ảnh_6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Sản phẩm 7",
+      "price": 39.99,
+      "description": "Mô tả sản phẩm 7",
+      "image": "url_hình_ảnh_7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sản phẩm 8",
+      "price": 49.99,
+      "description": "Mô tả sản phẩm 8",
+      "image": "url_hình_ảnh_8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sản phẩm 9",
+      "price": 12.99,
+      "description": "Mô tả sản phẩm 9",
+      "image": "url_hình_ảnh_9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sản phẩm 10",
+      "price": 59.99,
+      "description": "Mô tả sản phẩm 10",
+      "image": "url_hình_ảnh_10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Sản phẩm 11",
+      "price": 44.99,
+      "description": "Mô tả sản phẩm 11",
+      "image": "url_hình_ảnh_11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Sản phẩm 12",
+      "price": 16.99,
+      "description": "Mô tả sản phẩm 12",
+      "image": "url_hình_ảnh_12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Sản phẩm 13",
+      "price": 22.99,
+      "description": "Mô tả sản phẩm 13",
+      "image": "url_hình_ảnh_13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Sản phẩm 14",
+      "price": 27.99,
+      "description": "Mô tả sản phẩm 14",
+      "image": "url_hình_ảnh_14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Sản phẩm 15",
+      "price": 18.99,
+      "description": "Mô tả sản phẩm 15",
+      "image": "url_hình_ảnh_15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Sản phẩm 16",
+      "price": 32.99,
+      "description": "Mô tả sản phẩm 16",
+      "image": "url_hình_ảnh_16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Sản phẩm 17",
+      "price": 36.99,
+      "description": "Mô tả sản phẩm 17",
+      "image": "url_hình_ảnh_17.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Sản phẩm 19",
+      "price": 14.99,
+      "description": "Mô tả sản phẩm 19",
+      "image": "url_hình_ảnh_19.jpg"
+    },
+    {
+      "name": "1",
+      "price": "1",
+      "description": "1",
+      "image": "1",
+      "id": 20
+    },
+    {
+      "id": "df4855fe-4ffb-4d06-bb60-6964083359b8",
+      "name": "ThanhMinh",
+      "price": "16022001",
+      "description": "Product Description",
+      "image": "http://localhost:3000/images/la.jpg"
+    },
+    {
+      "id": "ad4913e8-dc63-4e97-a77d-427aa8524ff7",
+      "name": "ThanhMinh",
+      "price": "16022001",
+      "description": "Product Description",
+      "image": "http://localhost:3000/images/great-place-7826487.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password1",
+      "name": "User One"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password2",
+      "name": "User Two"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "email": "user3@example.com",
+      "password": "password3",
+      "name": "User Three"
+    }
+  ]
+}
