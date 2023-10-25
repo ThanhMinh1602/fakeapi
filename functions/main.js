@@ -3,17 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
 const { v4: uuidv4 } = require('uuid');
-const jsonServer = require('json-server');
-
 const server = express();
-const port = process.env.PORT || 3000;
-
-// Phần mềm trung gian
-server.use(jsonServer.defaults());
-
-// Thiết lập bộ định tuyến Máy chủ JSON
-const jsonServerRouter = jsonServer.router('db.json');
-server.use('/api', jsonServerRouter);
 
 // Thiết lập Multer để upload file
 const storage = multer.diskStorage({
@@ -26,20 +16,8 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage: storage });
 
-// get hinhf ảnh
-server.get('/images/:imageName', (req, res) => {
-  const imageName = req.params.imageName;
-  const imagePath = path.join(__dirname, 'uploads', imageName);
-
-  if (fs.existsSync(imagePath)) {
-    res.sendFile(imagePath);
-  } else {
-    res.status(404).send('Image not found');
-  }
-});
-
 // Xử lý việc upload file và thêm sản phẩm
-server.post('/upload', upload.single('image'), (req, res) => {
+server.post('/.netlify/functions/upload', upload.single('image'), (req, res) => {
   if (req.file) {
     const imageName = req.file.originalname;
     const imagePath = path.join(__dirname, 'uploads', imageName);
@@ -75,6 +53,4 @@ server.post('/upload', upload.single('image'), (req, res) => {
   }
 });
 
-server.listen(port, () => {
-  console.log(`JSON Server is running on port ${port}`);
-});
+module.exports = server;
