@@ -56,7 +56,7 @@ server.post('/upload', upload.single('image'), (req, res) => {
           name: req.body.name,
           price: req.body.price,
           description: req.body.description,
-          image: `http://localhost:3000/images/${imageName}`,
+          image: `https://api-thanhminh.onrender.com/images/${imageName}`,
         };
 
         products.push(newProduct);
