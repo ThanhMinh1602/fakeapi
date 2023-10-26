@@ -4,7 +4,7 @@
   "description": "demo json",
   "main": "main.js",
   "scripts": {
-    "biuld": "netlify deploy --prod"
+    "build": "netlify deploy --prod"
   },
   "keywords": [
     "json-server"
@@ -14,13 +14,13 @@
   "dependencies": {
     "json-server": "^0.17.4",
     "multer": "^1.4.5-lts.1",
-    "path": "^0.12.7",
-    "uuid": "^9.0.1",
     "netlify-cli": "16.9.2",
     "netlify-lambda": "2.0.16",
-    "serverless-http": "3.2.0"
+    "path": "^0.12.7",
+    "serverless-http": "^3.2.0",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"   
+    "nodemon": "^3.0.1"
   }
 }
