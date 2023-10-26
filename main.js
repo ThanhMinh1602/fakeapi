@@ -1,5 +1,4 @@
 const express = require('express');
-const serverless = require('serverless-http')
 const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
@@ -76,4 +75,6 @@ server.post('/upload', upload.single('image'), (req, res) => {
   }
 });
 
-module.exports.handler = serverless(express)
+server.listen(port, () => {
+  console.log(`JSON Server is running on port ${port}`);
+});
