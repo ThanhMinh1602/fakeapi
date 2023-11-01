@@ -147,50 +147,5 @@
       "description": "Product Description",
       "image": "http://localhost:3000/images/great-place-7826487.jpg"
     }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "username": "user1",
-      "email": "user1@example.com",
-      "password": "password1",
-      "name": "User One"
-    },
-    {
-      "id": 2,
-      "username": "user2",
-      "email": "user2@example.com",
-      "password": "password2",
-      "name": "User Two"
-    },
-    {
-      "id": 3,
-      "username": "user3",
-      "email": "user3@example.com",
-      "password": "password3",
-      "name": "User Three"
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Smartphone",
-      "description": "Danh mục chứa các dòng điện thoại thông minh."
-    },
-    {
-      "id": 2,
-      "name": "Điện thoại cổ điển",
-      "description": "Danh mục chứa các điện thoại cổ điển và retro."
-    },
-    {
-      "id": 3,
-      "name": "Điện thoại chơi game",
-      "description": "Danh mục chứa các điện thoại dành riêng cho chơi game."
-    },
-    {
-      "id": 4,
-      "name": "Điện thoại pin khủng",
-      "description": "Danh mục chứa các điện thoại có pin lớn và thời gian sử dụng dài."
-    }
   ]
 }
